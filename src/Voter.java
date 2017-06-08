@@ -2,13 +2,13 @@
 public class Voter {
 		
 //	int id;
-	String name;
+	String name1;
 	
 	
-	public Voter(String name)
+	public Voter(String name1)
 	{
 		//this.id=id;
-		this.name=name;
+		this.name1=name1;
 	}
 	
 	//public int getId()
@@ -18,6 +18,6 @@ public class Voter {
 	
 	public String getName()
 	{
-		return name;
+		return name1;
 	}
 }

@@ -1,8 +1,8 @@
 
 public class Candidate {
 	//int id;
-	String name;
-	int votes;
+	public String name;
+	public int votes;
 	
 	public Candidate(String name)
 	{
@@ -25,7 +25,7 @@ public class Candidate {
 	{
 		votes++;
 	}
-	public int getCount()
+	public int getNumberOfVotes()
 	{
 		return votes;
 	}
